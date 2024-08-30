@@ -3,7 +3,7 @@ import { showNotification, cleanNotifications } from "@mantine/notifications";
 import axios from "axios";
 
 const ApiClient = axios.create({
-  baseURL: "http://192.168.212.48:5000/api/",
+  baseURL: "http://localhost:5000/api/",
 });
 
 ApiClient.interceptors.request.use(
